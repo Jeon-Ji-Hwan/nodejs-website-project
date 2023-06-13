@@ -120,7 +120,8 @@ app.get('/register', function(request,response){
 app.post('/register_process',function(request,response){
     topic.register_process(request,response);
 })
-app.listen(3307, function () {
+app.listen(3000, function () {
     console.log('yeah!')
 });
+
 
